@@ -1,0 +1,26 @@
+{
+    "name": "asciidoc-textmate",
+    "displayName": "Asciidoc language (TextMate)",
+    "description": "Conversion of the textmate syntax support from matt neub",
+    "version": "0.1.0",
+    "publisher": "Juracy",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asciidoc",
+            "aliases": ["AsciiDoc", "asciidoc"],
+            "extensions": [".asc",".ad",".adoc",".asciidoc"],
+            "configuration": "./asciidoc.configuration.json"
+        }],
+        "grammars": [{
+            "language": "asciidoc",
+            "scopeName": "text.asciidoc",
+            "path": "./syntaxes/asciidoc.tmLanguage"
+        }]
+    }
+}
