@@ -3,7 +3,7 @@
     "displayName": "Asciidoc language (TextMate)",
     "description": "Conversion of the textmate syntax support from matt neub",
     "version": "0.1.0",
-    "publisher": "Juracy",
+    "publisher": "juracy",
     "engines": {
         "vscode": "^1.0.0"
     },
