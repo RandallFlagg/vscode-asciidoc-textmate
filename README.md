@@ -1,9 +1,12 @@
 # asciidoc-textmate README
 
 This extension is a conversion from "A New AsciiDoc Bundle for TextMate 2" (mattneub).
-This is the README for your extension "asciidoc-textmate". After writing up a brief description, we recommend including the following sections.
 
 ## Release Notes
+
+### 0.1.1
+
+Better use for surroundingPairs, now with asciidoc text formatters: ``_ ` *``
 
 ### 0.1.0
 
